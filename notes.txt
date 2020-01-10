@@ -1,0 +1,5 @@
+npm --version
+
+npm i -g yarn
+
+npm install -g @angular/cli
