@@ -3,3 +3,16 @@ npm --version
 npm i -g yarn
 
 npm install -g @angular/cli
+
+ng -v    
+ng version
+ng set --global packageManager=yarn
+ng new bike-ui -routing
+
+npm start
+
+
+---------------
+
+
+ng g service services/bike
