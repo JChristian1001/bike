@@ -1,3 +1,6 @@
+https://github.com/dlbunker/ps-spring-boot-and-angular
+
+
 npm --version
 
 npm i -g yarn
@@ -11,8 +14,24 @@ ng new bike-ui -routing
 
 npm start
 
+npm install bootstrap@4.0.0-beta.2 --save   npm install bootstrap@4.4.1
+npm install @angular-devkit/core --save
+npm install express-http-proxy -save
+
+npm install cors --save
+npm install port --save
+
+
+ng build --prod
+
+node server.js
+
+
+npm install --save auth0-js
+
 
 ---------------
 
 
 ng g service services/bike
+ng g component components/admin
