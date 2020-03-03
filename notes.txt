@@ -16,22 +16,8 @@ npm start
 
 npm install bootstrap@4.0.0-beta.2 --save   npm install bootstrap@4.4.1
 npm install @angular-devkit/core --save
-npm install express-http-proxy -save
 
-npm install cors --save
-npm install port --save
-
-
-ng build --prod
-
-node server.js
-
-
-npm install --save auth0-js
-
-
----------------
-
+AUTHENTICATION_BASEURL=ALGO2
 
 ng g service services/bike
 ng g component components/admin

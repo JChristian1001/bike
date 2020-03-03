@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+  bike:
+    image: christianr10/bike-back-v1:latest
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+    ports:
+      - 8089:8089
