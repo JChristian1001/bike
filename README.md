@@ -18,7 +18,7 @@ docker ps
 ```
 # Deploy in different environments...
 
-You can use the docker-compose.yml to run the docker image locate in directly : https://hub.docker.com/r/christianr10/bike-back-v1
+You can use the docker-compose.yml to run the docker image locate in: https://hub.docker.com/r/christianr10/bike-back-v1
 
 ```sh
 docker-compose -f docker-compose.yml  up
