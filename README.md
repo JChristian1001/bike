@@ -16,7 +16,7 @@ You can run the image with the next command
 docker run --name bike-container -p 8087:8089 bike-back:1.0
 docker ps
 ```
-# Docker different environments...
+# Deploy in different environments...
 
 You can use the docker-compose.yml to run the docker image locate in directly : https://hub.docker.com/r/christianr10/bike-back-v1
 
